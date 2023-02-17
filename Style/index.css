@@ -143,10 +143,10 @@ nav ul li a:hover::after{
   height: 30rem;
   object-fit: cover;
 }
-.home-img{
+/* .home-img{ */
     /* width: 283px; */
     /* border-radius:50%; */
-}
+/* } */
 #home h1{
     font-size: 50px;
     /* margin-top: 20px; */
