@@ -31,17 +31,17 @@ GitHubCalendar(".calendar", "nikhiljangra0954", {
   tooltips: true,
 });
 
-// document.getElementById("resume-button-1").onclick = () => {
-//   window.open(
-//     "https://drive.google.com/file/d/1f3iTp0zU24L_MB9LjhszOwHuSaGrb9ca/view?usp=share_link"
-//   );
-// };
+document.getElementById("resume-button-1").onclick = () => {
+  window.open(
+    "https://drive.google.com/file/d/1qbgppT81gwl5paORlqVfcnwhdZ6Ygl3x/view?usp=share_link"
+  );
+};
 
-// document.getElementById("resume-button-2").onclick = () => {
-//   window.open(
-//     "https://drive.google.com/file/d/1f3iTp0zU24L_MB9LjhszOwHuSaGrb9ca/view?usp=share_link"
-//   );
-// };
+document.getElementById("resume-button-2").onclick = () => {
+  window.open(
+    "https://drive.google.com/file/d/1qbgppT81gwl5paORlqVfcnwhdZ6Ygl3x/view?usp=share_link"
+  );
+};
 
 
 // var typed=new Typed(".variable", {
