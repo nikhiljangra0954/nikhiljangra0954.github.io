@@ -63,10 +63,10 @@ nav{
     /* width: 200px;
     color: #fff; */
     /* color: #2f3556; */
-    font-size: 50px;
+    font-size: 45px;
     color: var(--yellow);
     
-    font-weight: 700;
+    font-weight: 650;
     font-family: "Nunito", sans-serif;
     text-decoration: none;
     /* font-size: 25px; */
@@ -518,10 +518,26 @@ nav .fas{
   display: none;
 }
 
+
+
+
+
 /* ================================== css for small screen ========================================  */
-@media only screen and (max-width:600px){
+@media only screen and (max-width:970px){
 
 /* =============================== navbar ==============================  */
+.active{
+  /* width: 200px;
+  color: #fff; */
+  /* color: #2f3556; */
+  font-size: 40px;
+  color: var(--yellow);
+  margin-left: 5px;
+  font-weight: 650;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  /* font-size: 25px; */
+}
 nav .fas{
   display: block;
   font-size: 25px;
@@ -679,10 +695,21 @@ nav ul .fas{
 
 
   /* ============================================ contact ===================================  */
-
-  .contact-left,.contact-right{
-    width: 100%;
+  .contact-left{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 4rem;
+    /* width: 38%; */
+    /* margin-left: 15px; */
+    /* padding: 0px; */
+    /* margin-top: 3rem;
+    margin-left: 2rem; */
+    margin: auto;
   }
+
+  /* .contact-left,.contact-right{
+    width: 100%;
+  } */
   /* .contact-email-div{
     width: 90%;
     margin: auto;
