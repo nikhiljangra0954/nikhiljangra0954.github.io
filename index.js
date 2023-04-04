@@ -31,13 +31,13 @@ GitHubCalendar(".calendar", "nikhiljangra0954", {
   tooltips: true,
 });
 
-document.getElementById("resume-button-1").onclick = () => {
+document.getElementById("resume-link-1").onclick = () => {
   window.open(
     "https://drive.google.com/file/d/1qbgppT81gwl5paORlqVfcnwhdZ6Ygl3x/view?usp=share_link","_blank"
   );
 };
 
-document.getElementById("resume-button-2").onclick = () => {
+document.getElementById("resume-link-2").onclick = () => {
   window.open(
     "https://drive.google.com/file/d/1qbgppT81gwl5paORlqVfcnwhdZ6Ygl3x/view?usp=share_link","_blank"
   );
