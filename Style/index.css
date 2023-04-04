@@ -27,7 +27,7 @@ body{
 header{
   background-color: var(--black);
   color: #ababab;
-  border-bottom: 1px solid #ababab;
+  /* border-bottom: 1px solid #ababab; */
   border-radius: 5px;
   position: fixed;
   top: 0;
@@ -92,9 +92,27 @@ nav ul li a {
   background-color: var(--yellow);
   border-radius: 5px;
   padding: 0.5rem 1rem;
-  border: 0;
+  border: 1px solid var(--yellow)
+  /* border-color: white; */
 }
 #resume-button-1 i,#resume-link-1{
+  color: var(--black);
+}
+
+#resume-button-2{
+      /* margin-top: 30px; */
+      background-color: var(--yellow);
+      text-decoration: none;
+      border-radius: 6px;
+      padding: 1rem 3rem;
+      /* font-size: 2rem; */
+      text-decoration: none;
+      font-size: 15px;
+      border: none;
+      color: #fff;
+}
+#resume-link-2{
+  text-decoration: none;
   color: var(--black);
 }
 nav ul li a::after{
@@ -165,20 +183,16 @@ nav ul li a:hover::after{
   color: #fff;
 }
 
-  #resume-link-2 {
-
-    background-color:var(--yellow);
-    text-decoration: none;
-    border-radius: 6px;
-    padding:1rem 4rem;
-
-    color: var(--black);
-  }
+ 
   
-  #resume-button-2:hover,#resume-button-1:hover {
+  #resume-button-1:hover{
     background-color: var(--yellow);
     border-radius: 7px;
     color: var(--black);
+    cursor: pointer;
+  }
+  #resume-button-2:hover {
+    background-color: rgb(204, 204, 14);
     cursor: pointer;
   }
 /* ----------------------------------------- about ----------------------------------------------  */
